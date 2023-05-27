@@ -1,4 +1,4 @@
-* {
+* { 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
-    background-image: url(../img/background/background13.jpg);
+    background-image: url(../img/background/background9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 
 }
 
@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-    color: #fd4556;
+    color: black;
     font-size: 28px;
 }
 
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #fd4556;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -50,18 +50,93 @@ nav ul li a:hover {
     transition: .3s;        
 }
 
-button {
+nav button {
     border: none;
     background: white;
     padding: 10px;    
     border-radius: 30px;
-    color: #fd4556;
+    color:black;
     font-weight: bold;
     font-size: 15px;
     transition: .4s;
 }
 
-button:hover {
+nav button:hover {
     transform: scale(1.3);
     cursor: pointer;
+}
+
+.container {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #7c7c7c;
+}
+
+section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
