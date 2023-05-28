@@ -6,7 +6,7 @@
 }
   /* Background Image */
 .hero {
-    height: 150vh;
+    height: 145vh;
     width: 100%;
     background-image: url(../img/background/background9.jpg);
     background-repeat: no-repeat;
@@ -70,10 +70,13 @@ nav button:hover {
 
 /* Support and FAQ'S */
 .support {
-    padding-top: 50px;
+    padding-top: 160px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #7c7c7c;
+    background-image: url(../img/agents/sage.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 section {
@@ -155,6 +158,9 @@ svg {
   width: 100%;
   text-align: center;
   justify-content: center;
+  background-image: url(../img/agents/chamber.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .main-container div {
