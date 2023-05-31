@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
@@ -76,8 +76,9 @@ button:hover {
 
 .card-body {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding-top: 50px;
+    padding-left: 150px;
   }
   
   .rank-cards-container {
@@ -94,16 +95,21 @@ button:hover {
   }
   
   .rank-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px; 
-    border-color:1px solid black;
+    justify-content: left;
     display: inline-block;
-    padding: 10px;
-    
   }
 
 .rank-icons img {
     width: 50px;
-    align-content: left;
+    height: 50px;
+    justify-content: left;
+    
 }
+
+.rank-icons label {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  }
