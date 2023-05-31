@@ -6,12 +6,12 @@
 }
 
 .mainback{
-    background-image: url(../img/background/background13.jpg);
+    background-image: url(../img/background/service.jpg);
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -66,50 +66,107 @@ button:hover {
     cursor: pointer;
 }
 
+.service {
+    padding-top: 10px;
+}
+
+/* Left Column of Ranks */
 .card-title {
     font-size: 25px;
+    color: white;
 }
 
 .card-text {
     font-size: 20px;
+    color: white;
 }
 
 .card-body {
     display: flex;
     justify-content: left;
     padding-top: 50px;
-    padding-left: 150px;
+    padding-left: 300px;
+    background-color: #0f1822;
   }
   
-  .rank-cards-container {
+.rank-cards-container {
     display: flex;
     gap: 20px;
-  }
+}
   
-  .rank-card {
+.rank-card {
     width: 250px;
-  }
+}
   
-  .rank-title {
+.rank-title {
     text-align: center;
-  }
+}
   
-  .rank-icons {
-    justify-content: left;
-    display: inline-block;
+.rank-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
 
 .rank-icons img {
     width: 50px;
     height: 50px;
-    justify-content: left;
-    
 }
 
 .rank-icons label {
-  display: inline-block;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    position: relative;
   }
+
+/* Right Column of Ranks */
+.card-title1 {
+    font-size: 25px;
+    color: white;
+}
+
+.card-text1 {
+    font-size: 20px;
+    color: white;
+}
+
+.card-body1 {
+    display: flex;
+    justify-content: left;
+    padding-left: 350px;
+  }
+  
+  .rank-cards-container1 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .rank-card1 {
+    width: 250px;
+  }
+  
+  .rank-title1 {
+    text-align: center;
+  }
+  .rank-icons1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .rank-icons1 label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+  }
+  
+.rank-icons1 img {
+    width: 50px; 
+    height: 50px; 
+}
