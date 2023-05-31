@@ -63,11 +63,44 @@ button:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
+
+.torankup {
+    color: #Fd4556;
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: 350px;
+  }
+
+.torankup .button {
+    margin-left: 300px;
+    padding: 10px 20px;
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
 /*About Us section ----------------------*/
+.aboutus{
+    background-color: #101b25;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
 .about-heading h2{
     color: #Fd4556;
     text-align: center;
+    justify-items: center;
     padding: 10px;
+}
+.about-text{
+    color:#Fd4556;
+    padding-left: 10px;
+    font-size:medium;
+}
+.about-text li{
+    padding: 5px;
 }
 /*Why we better section-----------------*/
 .whywebetter{
@@ -86,24 +119,25 @@ button:hover {
     margin-right: 5px;
 }
 /*Review section----------------------*/
+
 .review{
-    display: flex;
-    position: relative;
-    overflow: hidden;
+    display:grid;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-image: url(../img/agents/kayo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #7c7c7c;
+    background-size: 58vh;
 }
 .review-heading{
     font-size: 2.2rem;
     font-weight: 500;
     color: #Fd4556;
     padding: 10px 20px;
+    text-align: center;
 }
-.review-wrapper {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
 .review-box-container{
     display: flex;
     justify-content: center;
@@ -113,6 +147,7 @@ button:hover {
 }
 .review-box{
     width: 600px;
+    background-color: #fff;
     box-shadow: 2px 2px 30px;
     padding: 20px;
     margin: 15px;
@@ -158,30 +193,6 @@ button:hover {
 .review-box:hover{
     transform: translateY(-5px);
     transition: all ease 0.3s;
-}
-.prev-btn, 
-.next-btn {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 40px;
-    background-color: #ccc;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.prev-btn {
-  left: 0;
-}
-
-.next-btn {
-  right: 0;
-}
-.rankboost{
-    background-color: #06111c;
-    color: #Fd4556;
 }
 /* Footer and Socials --------------------------*/
 .footer {
