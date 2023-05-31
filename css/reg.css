@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 /* Head */
 * {
   margin: 0;
@@ -13,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('valo.jpg') no-repeat;
+    background: url('../img/background/backgroun11.jpg') no-repeat;
     background-size: cover;
     background-position:center;
   }
