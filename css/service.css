@@ -6,13 +6,13 @@
 }
 
 .mainback{
-    background-image: url(../img/background/service.jpg);
+    background-image: url(../img/background/yoru.png);
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     height: 100vh;
-    width: 100%;
+    width: 100%
 }
 
 nav {
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #fd4556;
+    color: #0f1822;
     text-decoration: none;
     font-weight: bold;
 }
@@ -66,107 +66,159 @@ button:hover {
     cursor: pointer;
 }
 
+/* RANKS */
+.body {
+    background-color: #ff4753;
+}
 .service {
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Left Column of Ranks */
+
 .card-title {
     font-size: 25px;
-    color: white;
+    font-weight: bold;
 }
 
-.card-text {
-    font-size: 20px;
-    color: white;
+.rank-option span {
+    text-align: center;
 }
 
-.card-body {
-    display: flex;
-    justify-content: left;
-    padding-top: 50px;
-    padding-left: 300px;
-    background-color: #0f1822;
-  }
-  
-.rank-cards-container {
-    display: flex;
-    gap: 20px;
-}
-  
-.rank-card {
-    width: 250px;
-}
-  
 .rank-title {
     text-align: center;
+    margin-bottom: 10px;
 }
   
 .rank-icons {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+  
+.rank-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
-.rank-icons img {
-    width: 50px;
-    height: 50px;
+  
+  .rank-image-left {
+    text-align: center;
+    margin-right: 25%;
+  }
+  
+  .rank-image-right {
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+.rank-image-item {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+  
+.rank-image-item.active {
+    display: block;
+}
+  
+.rank-option {
+    margin-top: 10px;
 }
 
-.rank-icons label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    position: relative;
-  }
+.left-column,
+.right-column {
+  flex: 1;
+  text-align: center;
+}
 
-/* Right Column of Ranks */
-.card-title1 {
-    font-size: 25px;
+.left-column {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.right-column {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* Footer and Socials */
+.footer {
+    background-color: #303030;
+    width: 100%;
+    padding: 70px 30px 20px; 
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/* Social Animations */
+.socials a:hover {
+    background-color: black;
+    transition: 0.5s
+}
+
+.socials a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+/* Footer Navigations */
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    background-color: #303030;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
     color: white;
 }
 
-.card-text1 {
-    font-size: 20px;
+.design {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
     color: white;
 }
-
-.card-body1 {
-    display: flex;
-    justify-content: left;
-    padding-left: 350px;
-  }
-  
-  .rank-cards-container1 {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .rank-card1 {
-    width: 250px;
-  }
-  
-  .rank-title1 {
-    text-align: center;
-  }
-  .rank-icons1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-  
-  .rank-icons1 label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    position: relative;
-  }
-  
-.rank-icons1 img {
-    width: 50px; 
-    height: 50px; 
+/* Footer Animations */
+.footerNav ul li a:hover {
+    opacity: 1;
 }
+
+    
