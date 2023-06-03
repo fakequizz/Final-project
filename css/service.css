@@ -25,12 +25,12 @@ nav {
 }
 
 .logo {
-    color:#0f1822;
+    color:#fff;
     font-size: 28px;
 }
 
 span {
-    color:#0f1822;
+    color:#fff;
 }
 
 nav ul li {
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #0f1822;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -151,7 +151,7 @@ button:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10px;;
+    padding-bottom: 10px;
 }
 
 /* Footer and Socials */
