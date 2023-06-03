@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
     <link rel="stylesheet" href="../css/service.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Service Site</title>
@@ -14,9 +15,9 @@
         <nav>
             <h2 class="logo">Boost<span> Master</span></h2>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Support</a></li>
+                <li><a href="../html/main.html">Home</a></li>
+                <li><a href="../html/service.html">Service</a></li>
+                <li><a href="../html/support.html">Support</a></li>
             </ul>
             <button type="button">Sign Up</button>
         </nav>
@@ -95,7 +96,7 @@
         </div>
       </div>
       <div class="btnwithcongrats">
-      <button onclick="showCongratulations()">Отправить заявку</button>
+      <button onclick="showCongratulations()">Send Request</button>
       </div>
       <footer>
         <div class="footer">
@@ -122,7 +123,7 @@
     <script src="../js/service.js"></script>
     <script>
       function showCongratulations() {
-        alert("Поздравляем! Заявка отправлена!");
+        alert("Congratulations! Request sent successfully!");
         location.reload();
       }
     </script>
