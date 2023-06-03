@@ -25,12 +25,12 @@ nav {
 }
 
 .logo {
-    color: #fd4556;
+    color:#0f1822;
     font-size: 28px;
 }
 
 span {
-    color: #fd4556;
+    color:#0f1822;
 }
 
 nav ul li {
@@ -75,7 +75,10 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
+.servise-heading{
+    text-align: center;
+    padding: 10px;
+}
 
 .card-title {
     font-size: 25px;
@@ -141,6 +144,14 @@ button:hover {
 .right-column {
   margin-left: 50px;
   margin-top: 50px;
+}
+
+.btnwithcongrats{
+    background-color: #ff4753;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;;
 }
 
 /* Footer and Socials */
