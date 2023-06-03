@@ -46,6 +46,12 @@ nav ul li a{
     font-weight: bold;
 }
 
+.hero nav button a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+}
+
 nav button {
     border: none;
     background: white;

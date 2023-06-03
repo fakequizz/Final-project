@@ -39,6 +39,12 @@ nav ul li {
     padding: 10px 20px;
 }
 
+.mainback nav button a {
+    text-transform: none;
+    text-decoration: none;
+    color: #e91e63;
+}
+
 nav ul li a{
     color: #fff;
     text-decoration: none;
